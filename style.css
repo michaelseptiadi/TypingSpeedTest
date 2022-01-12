@@ -125,8 +125,14 @@ body {
     font-weight: 500;
 }
 .footer {
-    font-size: 64px;
+    font-size: 5vw;
     text-align: center;
     color: #fff;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        margin-left: 350px;
+    }
 }
